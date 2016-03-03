@@ -32,7 +32,7 @@ class NoteStore {
 
 	delete(id) {
 		this.setState({
-			notes: this.satte.notes.filter(note => note.id !== id)
+			notes: this.notes.filter(note => note.id !== id)
 		});
 	}
 }
